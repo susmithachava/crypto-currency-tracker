@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.coin-type {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.items {
+  display: flex;
+  color: #ffffff;
+  justify-content: flex-start;
+  align-items: center;
+}
+.currency {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ffffff;
+}
+.currency-name {
+  font-family: 'roboto';
+  font-size: 18px;
+}
+.usd-value {
+  margin-right: 30px;
+}
+.euro-value {
+  margin-left: 30px;
+}
